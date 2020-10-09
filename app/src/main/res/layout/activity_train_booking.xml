@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TrainBooking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginTop="35dp">
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Your Details"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+</LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp">
+        <TextView
+        android:id="@+id/tvtNAME"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:text="Name"
+        android:textSize="25dp"
+        android:textStyle="bold"
+            android:gravity="center"
+         />
+    <EditText
+        android:id="@+id/etTrainname"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:textSize="25dp"
+        android:ems="10"
+        android:hint="Name"
+         />
+    </LinearLayout>
+        <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="10dp">
+    <TextView
+        android:id="@+id/tvtEMAIL"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:text="Email"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+         />
+    <EditText
+        android:id="@+id/etTrainemail"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:textSize="25dp"
+        android:inputType="textEmailAddress"
+        />
+   </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+        android:id="@+id/tvtAGE"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:text="Age"
+        android:textSize="25dp"
+        android:textStyle="bold"
+            android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/etTrainage"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:textSize="25dp"
+        android:inputType="number"
+        />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+        android:id="@+id/tvtCONTACT"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:text="Contact No."
+        android:textSize="25dp"
+        android:textStyle="bold"
+            android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/etTrainmobile"
+        android:layout_width="210dp"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:textSize="25dp"
+        android:inputType="number"
+ />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        >
+        <Button
+        android:id="@+id/btnPaymentTrain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Procced To Payment"
+            android:gravity="center"
+        />
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+
