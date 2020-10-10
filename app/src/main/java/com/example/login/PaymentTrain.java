@@ -150,7 +150,7 @@ public class PaymentTrain extends AppCompatActivity {
         }
         result = (sum % 10 == 0);
 
-        return true;
+        return result;
     }
 
     private void Upload(){
