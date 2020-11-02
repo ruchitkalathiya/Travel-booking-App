@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="20dp"
+    android:background="@drawable/back5"
     android:paddingTop="100dp"
     tools:context=".PaymentPlan">
 
@@ -30,6 +30,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
         android:paddingTop="80dp">
         <TextView
             android:text="Name :"
@@ -51,6 +52,7 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
         android:paddingTop="5dp">
 
     <TextView
@@ -72,6 +74,7 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
+        android:paddingLeft="80dp"
         android:layout_height="wrap_content"
         android:paddingTop="5dp">
     <TextView
@@ -94,7 +97,8 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="5dp">
+        android:paddingTop="5dp"
+        android:paddingLeft="80dp">
     <TextView
         android:text="Contact :"
         android:textSize="20dp"
@@ -116,12 +120,16 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
-        android:paddingTop="5dp">
+        android:paddingTop="20dp">
         <Button
             android:id="@+id/btnEditdetail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Edit Details"
+            android:textColor="#000000"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/custom_textback"
             android:textSize="20dp"/>
     </LinearLayout>
 
@@ -135,6 +143,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Credit Card"
+            android:textColor="#000000"
             android:textSize="30dp"/>
         <EditText
             android:id="@+id/etCreditcard"
@@ -150,12 +159,17 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
+        android:paddingTop="10dp"
         android:paddingBottom="50dp">
         <Button
         android:id="@+id/btnPay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Procced to pay"
+            android:textColor="#000000"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/custom_textback"
         android:textSize="20dp"
         android:gravity="center"/>
     </LinearLayout>

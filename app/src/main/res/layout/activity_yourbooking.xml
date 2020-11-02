@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fce8e2"
     tools:context=".yourBooking">
 
     <LinearLayout
@@ -14,14 +15,18 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Your Bookings"
-                android:textSize="50dp"
+                android:fontFamily="@font/aladin"
                 android:gravity="center"
-                android:textColor="#000000"/>
+                android:text="Your Bookings"
+                android:textColor="#000000"
+                android:textSize="50dp" />
         </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,10 +37,12 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:text="Plane Bookings"
-            android:textColor="@android:color/black"
+            android:fontFamily="@font/walter_turncoat"
             android:gravity="center"
-            android:textSize="25dp"/>
+            android:text="Plane Bookings"
+
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
 
         <ListView
             android:id="@+id/lview"
@@ -49,13 +56,15 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="10dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:fontFamily="@font/walter_turncoat"
+                android:gravity="center"
                 android:text="Train Bookings"
                 android:textColor="@android:color/black"
-                android:gravity="center"
-                android:textSize="25dp"/>
+                android:textSize="25dp" />
             <ListView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
