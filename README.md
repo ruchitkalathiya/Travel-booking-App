@@ -36,7 +36,7 @@ In this project we have used Realtime-Database and Authentication.
 | _Figure-1: Authentication page_ |
 | :-: |
 
-![Figure-1](https://github.com/ruchitkalathiya/Travel-booking-App./blob/master/images/f-a.jpg)
+<img src="https://github.com/ruchitkalathiya/Travel-booking-App./blob/master/images/f-a.jpg" width="500" heigth="50">
 
 Authentication provides user authentication whether user has account or not.
 
@@ -44,14 +44,14 @@ Authentication provides user authentication whether user has account or not.
 | _Figure-2: Realtime-Database_ |
 | --- |
 
-![Figure-2](https://github.com/ruchitkalathiya/Travel-booking-App./blob/master/images/f-b.jpg)
+<img src="https://github.com/ruchitkalathiya/Travel-booking-App./blob/master/images/f-b.jpg" width="500" heigth="50">
 
 Realtime-Database provides us storage where we can store user data.
 
 | _Figure-3: Tree-Structure_ |
 | --- |
 
-![Figure-3](https://github.com/ruchitkalathiya/Travel-booking-App./blob/master/images/f-c.jpg)
+<img src="https://github.com/ruchitkalathiya/Travel-booking-App./blob/master/images/f-c.jpg" width="500" heigth="50">
 
 There is a tree like structure where user data is being stored. In that &quot;Login-9e789&quot; is a project ID. In that there are two branches named &quot;PLANESEATS&quot; and &quot;TRAINSETS&quot;. All planes and trains remaining seats information is there. There are other branches which is named by unique user UID in which user`s all booking and account information is being stored.
 
