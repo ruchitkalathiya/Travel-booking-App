@@ -7,9 +7,6 @@ It is an android app for booking for airplane as well as for train.
 - [Ruchit Kalathiya (19IT051)](https://github.com/ruchitkalathiya)
 
 
-- [Vivek mandani (19IT062)](https://github.com/VIVEK172001)
-
-
 ## *Introduction*
 In this era of traffic, there is such a long queue at railway-station and airport for booking tickets. To avoid to be in queue and to save the time there are many apps and websites to booking tickets online. This app is also online booking app that user can use for book tickets and reserve their seats. This app is very useful and it is also very easy to use.
 
